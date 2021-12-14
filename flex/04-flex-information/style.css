@@ -13,21 +13,17 @@ img {
   font-weight: 900;
   margin-bottom: 32px;
 }
+
 .items {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 52px;
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 200px;
-  align-items: center;
-  margin-right: 52px;
-  margin-left: 52px;
+  max-width: 200px;
 }
-
 
 
 /* do not edit this footer */
