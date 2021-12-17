@@ -22,23 +22,26 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   justify-content: center;
-  padding: 20px;
-  gap: 20px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .right {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .up {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
-  font-weight: bolder;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
+.mid {
+  margin-bottom: 8px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
